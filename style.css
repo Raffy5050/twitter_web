@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body {
+    background: white;
+}
+/* styling the right side bar
+*/
+.left_side{
+    position: fixed;
+margin-left: 139px;
+}
+.bird{
+    margin-left: 19px;
+}
+/*.leftbar nav{
+    margin-top: -60px;
+} */
+.leftbar{
+   /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.leftbar .img-icon {
+    padding: 10px;
+}
+.img-icon{
+    width: 60px;
+}
+#more img {
+    margin-top: 8px;
+    margin-left: 18px;
+    width: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000609;
+    border-radius: 50%;
+}
+#more h3{
+    margin-left: 26px;
+    margin-top: 10px;
+}
+
+.leftbar h3 {
+    width: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+} 
+.leftbar:hover{
+    background-color:#c6e3fa;
+    width:210px;
+    border-radius: 25px;
+    color: #1DA1F2;
+}
+
+.left_btn{
+    display: flex;
+    margin-top: 25px;
+    /*justify-content: center; */
+   /* margin: 10vh 0; */
+}
+.leftside_butn{
+
+    font-size: 1.1rem;
+    padding: 1.9vh 5vw;
+    border: 0;
+    border-radius: 2rem;
+    color: white;
+    background-color:#1DA1F2;
+}
+.shola-pic{
+    margin-top: 100px;
+    margin-left: 30px;
+    /*display: flex;*/
+    
+}
+    .shola-pic img {
+    
+    width: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000609;
+    border-radius: 50%;
+}
+.shola-pic h4 {
+    margin-top: -38px;
+    margin-left: 58px;
+}
+.shola-pic h5 {
+    margin-top:5px;
+    margin-left: 60px;
+}
+.moress {
+    margin-top:-35px;
+    margin-left: 230px;
+    
+}
+.v_line{
+ border-left: 1px solid rgba(190, 190, 190, 0.47);
+  height: 900px;
+  position: absolute;
+  left: 28%;
+  margin-left: -3px;
+  top: 0;
+}
